@@ -63,11 +63,6 @@ public class MainActivity extends AppCompatActivity {
         etLogin = (EditText) findViewById(R.id.am_et_mobile_no);
         etPwd = (EditText) findViewById(R.id.am_et_pwd);
         tvFPwd = (TextView) findViewById(R.id.am_tv_fpwd);
-        //Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/segoeui.ttf");
-//        tvFPwd.setTypeface(custom_font);
-//        etLogin.setTypeface(custom_font);
-//        etPwd.setTypeface(custom_font);
-//        btLogin.setTypeface(custom_font);
 
         REST_CLIENT = RestClient.get();
         session = new SessionManager(getApplicationContext());
